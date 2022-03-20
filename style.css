@@ -1,0 +1,199 @@
+:root {
+    --dark-bg: #151724;
+    --dark-gray: #21232f;
+    --dark: #1c1d32;
+    --orange: #f9896b;
+    --orange-1: #fa6b18;
+    --pink: #f94166;
+    --blue: #353fde;
+    --black: #101011;
+    --gray: #83848a;
+    --light-gray: #d0d4df;
+    --blue-2: #73c2e0;
+    --blue-3: #0890fe;
+    --teal: #52d3b9;
+    --white: #f5f8f7;
+    --red: #eb1e1ed8;
+    --green: #67dd4f;
+    --gray-1: #9c9db4;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    /* overflow: hidden; */
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    /* color: var(--light-gray); */
+}
+
+
+.navigation {
+    width: 250px;
+    background-color: var(--dark-bg);
+    transition: 0.5s;
+    color: var(--light-gray);
+    font-size: 10px;
+
+}
+
+.menu {
+    color: var(--gray);
+}
+
+.menu:hover {
+    color: var(--light-gray);
+    font-weight: bold;
+    background-color: var(--dark-gray);
+    border-radius: 10px;
+}
+
+.header-icon {
+    color: var(--gray-1);
+}
+
+.navigation ul {
+    padding: 15px;
+}
+
+.navigation li {
+    padding: 10px;
+}
+
+.icon {
+    padding-right: 10px;
+    font-size: 15px;
+}
+
+.menu-card {
+    background-color: var(--orange);
+    color: var(--white);
+    border-radius: 10px;
+    font-size: 10px;
+}
+
+.menu-card span,
+.about span {
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.menu {
+    font-size: 10px;
+}
+
+.image-description {
+    transform: translate(11px, -40px);
+    color: var(--white);
+}
+
+.nav-image img {
+    width: 180px;
+    border-radius: 10px;
+    opacity: 70%;
+}
+
+/*  */
+
+.main {
+    width: calc(100% - 250px);
+    left: 250px;
+    height: 100vh;
+    background-color: var(--dark);
+    font-size: 10px;
+
+}
+
+/*  */
+.topbar {
+    color: var(--light-gray);
+}
+
+
+.about li {
+    padding: 0 25px;
+    border-right: 1px solid var(--gray);
+}
+
+.about li:last-child {
+    border: none;
+    padding-right: 0;
+}
+
+.about li:first-child {
+    padding-left: 0;
+}
+
+.user img {
+    width: 45px;
+    height: 45px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.user i {
+    font-size: 22px;
+    margin: 0 20px;
+}
+
+.about span {
+    font-size: 20px;
+}
+
+.bell-circule {
+    width: 7px;
+    height: 7px;
+    background-color: var(--orange);
+    border-radius: 50%;
+    transform: translate(17px, -25px);
+}
+
+/*  */
+
+.bank-card {
+    color: var(--white);
+    position: block;
+    width: 330px;
+    height: 200px;
+    border-radius: 10px;
+
+}
+
+.first-card {
+    background: rgb(27, 28, 49);
+    background: linear-gradient(344deg, rgb(46, 47, 78) 35%, rgba(41, 43, 81, 1) 43%, rgba(47, 80, 94, 1) 53%, rgba(37, 38, 69, 1) 60%);
+}
+
+.second-card {
+    background: rgb(103, 90, 182);
+    background: linear-gradient(132deg, rgba(103, 90, 182, 1) 34%, rgba(128, 134, 203, 1) 53%, rgba(82, 69, 159, 1) 68%);
+}
+
+.third-card {
+    background: rgb(175, 219, 245);
+    background: linear-gradient(344deg, rgba(175, 219, 245, 1) 10%, rgba(175, 219, 245, 1) 13%, rgba(103, 176, 203, 1) 24%, rgba(60, 87, 113, 1) 44%, rgba(46, 72, 97, 1) 85%);
+}
+
+.card-number {
+    font-size: 25px;
+}
+
+.card-details span {
+    font-size: 13px;
+    font-weight: 500;
+}
+
+
+.cards-row::-webkit-scrollbar {
+    display: none;
+}
+
+.cards-row {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+/*  */
