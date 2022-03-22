@@ -16,6 +16,7 @@
     --red: #eb1e1ed8;
     --green: #67dd4f;
     --gray-1: #9c9db4;
+    --gray-3: #26273b;
 }
 
 
@@ -32,7 +33,7 @@
 
 
 .navigation {
-    width: 250px;
+    width: 280px;
     background-color: var(--dark-bg);
     transition: 0.5s;
     color: var(--light-gray);
@@ -91,7 +92,7 @@
 }
 
 .nav-image img {
-    width: 180px;
+    width: 220px;
     border-radius: 10px;
     opacity: 70%;
 }
@@ -99,9 +100,9 @@
 /*  */
 
 .main {
-    width: calc(100% - 250px);
-    left: 250px;
-    height: 100vh;
+    width: calc(100% - 280px);
+    left: 280px;
+    /* height: 100vh; */
     background-color: var(--dark);
     font-size: 10px;
 
@@ -202,3 +203,100 @@
 }
 
 /*  */
+
+.ads {
+    color: var(--light-gray);
+
+}
+
+.new-ad {
+    width: 150px;
+    height: 200px;
+    border: 2px dashed var(--gray);
+    border-radius: 10px;
+
+}
+
+.ad-card {
+    border-radius: 10px;
+    width: 150px;
+    height: 200px;
+
+}
+
+.ad-card span {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.first-ad {
+    background: rgb(5, 0, 184);
+    background: linear-gradient(344deg, rgba(5, 0, 184, 1) 0%, rgba(102, 97, 150, 1) 68%, rgba(168, 148, 233, 1) 100%);
+}
+
+.second-ad {
+    background: rgb(5, 0, 184);
+    background: radial-gradient(circle, rgba(5, 0, 184, 1) 0%, rgba(102, 97, 150, 1) 68%, rgba(168, 148, 233, 1) 100%);
+}
+
+.third-ad {
+    background: rgb(5, 0, 184);
+    background: linear-gradient(188deg, rgba(5, 0, 184, 1) 0%, rgba(102, 97, 150, 1) 68%, rgba(168, 148, 233, 1) 100%);
+}
+
+.ad-icon {
+    color: var(--white);
+    font-size: 25px;
+    transform: translate(117px, -230px);
+}
+
+
+
+
+.manager-card i {
+    font-size: 20px;
+
+}
+
+
+.ads-manager {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 450px;
+}
+
+.manager-card {
+    border-radius: 12px;
+    background-color: var(--gray-3);
+    width: 120px;
+    margin: 2px;
+}
+
+.transfer {
+    color: var(--light-gray);
+    max-width: 450px;
+
+}
+
+.transfer a {
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.transfer-button {
+    border-radius: 5px;
+    border: none;
+    background-color: var(--orange);
+    color: var(--white);
+    font-size: 13px;
+}
+
+/*  */
+.contact-item {
+    font-size: 13px;
+    border-bottom: 2px solid var(--gray-3);
+}
+
+.contact-icon {
+    border-radius: 5px;
+}
