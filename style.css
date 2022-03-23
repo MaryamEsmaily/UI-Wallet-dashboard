@@ -37,7 +37,7 @@
     background-color: var(--dark-bg);
     transition: 0.5s;
     color: var(--light-gray);
-    font-size: 10px;
+    font-size: 13px;
 
 }
 
@@ -82,9 +82,12 @@
     font-size: 15px;
 }
 
-.menu {
-    font-size: 10px;
+.menu,
+.menu-logout {
+    font-size: 14px;
 }
+
+
 
 .image-description {
     transform: translate(11px, -40px);
@@ -111,8 +114,11 @@
 /*  */
 .topbar {
     color: var(--light-gray);
+    align-items: center;
+
 }
 
+.about {}
 
 .about li {
     padding: 0 25px;
@@ -262,19 +268,18 @@
 .ads-manager {
     display: flex;
     flex-wrap: wrap;
-    max-width: 450px;
+    min-width: 470px;
 }
 
 .manager-card {
     border-radius: 12px;
     background-color: var(--gray-3);
     width: 120px;
-    margin: 2px;
 }
 
 .transfer {
     color: var(--light-gray);
-    max-width: 450px;
+    /* max-width: 450px; */
 
 }
 
@@ -299,4 +304,39 @@
 
 .contact-icon {
     border-radius: 5px;
+}
+
+/*  */
+
+
+@media (max-width:960px) {
+
+    .topbar {
+
+        align-items: flex-start;
+    }
+
+    .about ul {
+        flex-direction: column;
+    }
+
+    .about li {
+        padding: 10px 0;
+        border: none;
+    }
+}
+
+
+@media (max-width:769px) {
+    .ads-manager {
+        min-width: 250px;
+        justify-content: center;
+    }
+
+    .main {
+        width: 100%;
+
+    }
+
+
 }
